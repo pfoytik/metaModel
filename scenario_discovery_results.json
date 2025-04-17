@@ -1,0 +1,69 @@
+[
+    {
+        "scenario_id": 1,
+        "description": "Major arterial routes blocked",
+        "conditions": [
+            {
+                "road_id": "road_10",
+                "status": "closed"
+            },
+            {
+                "road_id": "road_25",
+                "status": "closed"
+            },
+            {
+                "road_id": "road_42",
+                "status": "closed"
+            }
+        ],
+        "avg_evacuation_time": 112.5,
+        "probability_high_impact": 0.87,
+        "coverage": 0.12
+    },
+    {
+        "scenario_id": 2,
+        "description": "Southern exit routes blocked",
+        "conditions": [
+            {
+                "road_id": "road_10",
+                "status": "closed"
+            },
+            {
+                "road_id": "road_16",
+                "status": "closed"
+            },
+            {
+                "road_id": "road_17",
+                "status": "closed"
+            }
+        ],
+        "avg_evacuation_time": 98.3,
+        "probability_high_impact": 0.75,
+        "coverage": 0.08
+    },
+    {
+        "scenario_id": 3,
+        "description": "Downtown grid blocked",
+        "conditions": [
+            {
+                "road_id": "road_25",
+                "status": "closed"
+            },
+            {
+                "road_id": "road_21",
+                "status": "closed"
+            },
+            {
+                "road_id": "road_22",
+                "status": "closed"
+            },
+            {
+                "road_id": "road_15",
+                "status": "closed"
+            }
+        ],
+        "avg_evacuation_time": 105.2,
+        "probability_high_impact": 0.82,
+        "coverage": 0.15
+    }
+]
