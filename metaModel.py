@@ -69,6 +69,8 @@ def load_data():
             
             row = list(road_closures) + [evacuation_time]
             df.loc[i] = row
+    ### remove all rows with evacuation_time <= 0
+    df = df[df['evacuation_time'] > 0]
     
     # Load feature importance data
     try:
